@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What sources can this system ingest?",
+    "expected_terms": ["PDF", "website", "YouTube"]
+  },
+  {
+    "question": "What vector database is used?",
+    "expected_terms": ["pgvector", "PostgreSQL"]
+  },
+  {
+    "question": "How does the system improve retrieval quality?",
+    "expected_terms": ["BM25", "reranker", "vector search"]
+  }
+]
